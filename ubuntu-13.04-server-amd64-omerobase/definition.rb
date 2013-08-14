@@ -1,7 +1,7 @@
 Veewee::Session.declare({
   :cpu_count => '1',
   :memory_size => '2048',
-  :disk_size => '65536',
+  :disk_size => '32768',
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :os_type_id => 'Ubuntu_64',
@@ -34,11 +34,12 @@ Veewee::Session.declare({
    "build_time.sh",
    "apt.sh",
    "vbox.sh",
-   "sudo.sh",
-   "ruby.sh",
-   "chef.sh",
-   "puppet.sh",
+   #"sudo.sh",
+   #"ruby.sh",
+   #"chef.sh",
+   #"puppet.sh",
    "vagrant.sh",
+   "omero_user.sh",
    "cleanup.sh"
   ],
   :postinstall_timeout => "10000"
